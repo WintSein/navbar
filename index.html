@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+  </head>
+  <style>
+    /*
+    .nav {
+      display: flex;
+      align-items: center;
+      background-color: lightskyblue;
+    }
+
+    .navbar {
+      display: flex;
+      list-style-type: none;
+    }
+
+    .navbar-item {
+      width: 150px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+    }
+
+    .dropdown-contents {
+      list-style-type: none;
+      display: none;
+      position: absolute;
+      top: 15px;
+      background-color: cadetblue;
+      padding: 20px;
+      min-width: 150px;
+    }
+
+    .dropdown:hover .dropdown-contents {
+      display: block;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+    input[type=checkbox]{
+      display: none;
+    }
+    .toggler_icon{
+      display: block;
+      font-size: 25px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .nav {
+        display: block;
+      }
+
+      .nav img {
+        padding-left: 25px;
+      }
+
+      .navbar {
+        flex-direction: column;
+      }
+      .navbar li + li {
+        margin-top: 20px;
+      }
+    }
+    */
+  </style>
+  <body>
+    <div class="container">
+      <header class="nav">
+        <img src="logo.jpg">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle"> &#9776;</label>
+        <ul class="navbar">
+          <li class="navbar-item"><a href="index.html"> Home </a></li>
+          <li class="navbar-item">
+            <a
+              href="https://www.edusn.co.uk/"
+            >
+              News
+            </a>
+          </li>
+          <li class="navbar-item dropdown">
+            <a href=""> Service </a>
+            <ul class="dropdown-contents">
+              <li class="dropdown-items"><a href="#"> Service-1 </a></li>
+              <li class="dropdown-items"><a href="#"> Service-2 </a></li>
+              <li class="dropdown-items"><a href="#"> Service-3 </a></li>
+            </ul>
+          </li>
+          <li class="navBar-item"><a href="#"> About us </a></li>
+        </ul>
+      </header>
+    </div>
+  </body>
+</html>
